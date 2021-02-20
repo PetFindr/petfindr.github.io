@@ -2,7 +2,35 @@ body {
     margin: 0;
     /* set default font size */
     font-size: 18px;
+background-color: #111111;
+color: #FFFFFF;
 }
+
+<style>
+a:link {
+  color: #add8e6;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #add8e6;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #e6b8b8;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: pink;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
 
 /* ========
 Typography
@@ -25,14 +53,16 @@ h3 {
 a {
   color: lightsalmon;
 }
-
+h4 {
+    font-size: 70px;
+}
 /* ========
 Layout
 ======== */
 
 header {
     background-color: #111111;
-    color: #fb0035;
+    color: #e10030;
     padding: 30px 0;
     text-align: center;
 }
@@ -52,8 +82,8 @@ footer {
 }
 
 .sections {
-    background-color: #e10030;
-    color: #fff;
+    background-color: #960020;
+    color: #add8e6;
     padding: 75px 0;
     text-align: center;
 }
